@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PPSSignatureView"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Signature pad"
   s.description  = <<-DESC
                     Signature Pad to capture a users signature.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/jharwig/PPSSignatureView"
   s.license      = 'MIT'
   s.author       = { "jharwig" => "jason@pinepointsoftware.com" }
-  s.source       = { :git => "https://github.com/jharwig/PPSSignatureView.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/brianmichel/PPSSignatureView.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '5.0'
   s.ios.deployment_target = '5.0'
